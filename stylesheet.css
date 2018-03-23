@@ -1,0 +1,188 @@
+
+
+@font-face 
+{   font-family: Bioshock;
+    src: url("font/andes2.ttf") format("opentype");}
+@font-face 
+{   font-family: ITC;
+    src: url("font/SteppITCStd-Bold.otf") format("opentype");}
+body.clear { 
+    background: #F3E2A9; 
+}
+body.dark { 
+    background: #424242; 
+}    
+ * {
+  padding: 0;
+  margin: 0;
+}
+p {
+  margin-bottom: 20px;
+}
+.wrapper {
+  width: 80%;
+  margin: auto;
+  overflow:hidden;
+}
+/*definicion de la etiqueta header*/
+header {
+  background: #222A0A;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+}
+/*estilos barra de navegacion*/
+nav {
+  float: center; 
+}
+nav ul {
+  list-style: none;
+  overflow: hidden; 
+}
+nav ul li {
+  float: left;
+  font-family: Bioshock;
+  font-size: 18px;
+}
+nav ul li a {
+  display: block; 
+  padding: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+nav ul li:hover {
+  background: #393B0B;
+}
+
+.active {
+    background-color: #2E3B0B;
+}
+/*estilo etiqueta footer*/    
+footer{
+  width: 100%;
+  font-family: sans-serif;
+  font-size: 90%;
+  height: 80px;
+  padding: 20px 0px 4px 0px;
+  text-align: center; 
+  background: #8a8a5c;
+  color: #A8AA94;
+  border-top: 4px solid  #888844;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;}
+        
+    }
+
+@media only screen and (max-device-width: 780px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}    
+    
+ /*parallax home*/
+    
+.parallax { 
+    background-image: url("img/Bioshock-Remaster.jpg");
+    height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 25px;
+   
+}  
+.parallax2 { 
+    background-image: url("img/bioshock1.jpg");
+    height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 25px;
+   
+}  
+.parallax3 { 
+    background-image: url("img/bioshock2.jpg");
+    height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   margin-bottom: 25px;
+}
+.parallax4 { 
+    background-image: url("img/biochock%20infinite.jpg");
+    height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 25px;
+   
+} 
+
+/*titulos del parallax*/
+.title{
+    padding-top: 10%;
+    font-family: Bioshock;
+    font-size: 50px;
+    color: #FBFBEF;
+    text-align: center;
+    text-shadow: 0 5px 0 #424242, 0 0 5px #424242;
+    
+       
+    }    
+/*contenido (texto)*/
+.text_p{
+    font-family: ITC;
+    font-size: 27px;
+}
+.content{ 
+    text-align: left;
+    width: 624px;
+    float: left;
+    padding: 20px 10px 15px 0px;}    
+.textcage{
+    font-family: ITC;
+    margin: auto;
+    width: 80%;
+    font-size: 27px;
+    background: rgb(168, 157, 119); 
+   background: rgba(168, 157, 119,0.1);
+    width: 824px;
+   padding: 1px;     
+}
+.textcage-white{
+    font-family: ITC;
+    margin: auto;
+    width: 100;
+    color: cornsilk;    
+    font-size: 27px;
+    background: rgb(168, 157, 119); 
+   background: rgba(168, 157, 119,0.1);
+    width: 824px;
+   padding: 1px;     
+}
+/* estilos de tabla*/
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: center;
+    font-family: ITC;
+    font-size: 18;
+    color: aliceblue;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: ##424242}
+
+th {
+    background-color: #2E3B0B;
+    color: floralwhite;
+    font-family: Bioshock;
+    font-size: 22px;
+    
+}
